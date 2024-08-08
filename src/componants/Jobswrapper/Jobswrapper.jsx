@@ -1,7 +1,18 @@
 import { useEffect, useState } from 'react'
 import Jobitems from '../Jobitems/Jobitems'
 import photosnap from '../../assets/images/photosnap.svg'
+import manage from '../../assets/images/manage.svg'
 import account from '../../../public/images/account.svg'
+import myhome from '../../assets/images/myhome.svg'
+import faceit from '../../assets/images/faceit.svg'
+import loop from '../../assets/images/loop-studios.svg'
+import shortly from '../../assets/images/shortly.svg'
+import insure from '../../assets/images/insure.svg'
+import eyecam from '../../assets/images/eyecam-co.svg'
+import airfilter from '../../assets/images/the-air-filter-company.svg'
+
+
+
 
 import './Jobswrapper.css'
 function Jobswrapper(){
@@ -24,7 +35,7 @@ function Jobswrapper(){
           {
             "id": 2,
             "company": "Manage",
-            "logo": "../../../public/images/manage.svg",
+            "logo":manage,
             "new": true,
             "featured": true,
             "position": "Fullstack Developer",
@@ -54,7 +65,7 @@ function Jobswrapper(){
           {
             "id": 4,
             "company": "MyHome",
-            "logo": "./src/assets/images/myhome.svg",
+            "logo": myhome,
             "new": false,
             "featured": false,
             "position": "Junior Frontend Developer",
@@ -69,7 +80,7 @@ function Jobswrapper(){
           {
             "id": 5,
             "company": "Loop Studios",
-            "logo": "./src/assets/images/loop-studios.svg",
+            "logo": loop,
             "new": false,
             "featured": false,
             "position": "Software Engineer",
@@ -84,7 +95,7 @@ function Jobswrapper(){
           {
             "id": 6,
             "company": "FaceIt",
-            "logo": "./src/assets/images/faceit.svg",
+            "logo": faceit,
             "new": false,
             "featured": false,
             "position": "Junior Backend Developer",
@@ -99,7 +110,7 @@ function Jobswrapper(){
           {
             "id": 7,
             "company": "Shortly",
-            "logo": "./src/assets/images/shortly.svg",
+            "logo": shortly,
             "new": false,
             "featured": false,
             "position": "Junior Developer",
@@ -114,7 +125,7 @@ function Jobswrapper(){
           {
             "id": 8,
             "company": "Insure",
-            "logo": "./src/assets/images/insure.svg",
+            "logo": insure,
             "new": false,
             "featured": false,
             "position": "Junior Frontend Developer",
@@ -129,7 +140,7 @@ function Jobswrapper(){
           {
             "id": 9,
             "company": "Eyecam Co.",
-            "logo": "./src/assets/images/eyecam-co.svg",
+            "logo": eyecam,
             "new": false,
             "featured": false,
             "position": "Full Stack Engineer",
@@ -144,7 +155,7 @@ function Jobswrapper(){
           {
             "id": 10,
             "company": "The Air Filter Company",
-            "logo": "./src/assets/images/the-air-filter-company.svg",
+            "logo": airfilter,
             "new": false,
             "featured": false,
             "position": "Front-end Dev",
