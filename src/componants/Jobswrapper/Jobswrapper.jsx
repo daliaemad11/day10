@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react'
 import Jobitems from '../Jobitems/Jobitems'
+import photosnap from '../../assets/images/photosnap.svg'
+import account from '../../../public/images/account.svg'
+
 import './Jobswrapper.css'
 function Jobswrapper(){
     const[job,setjob]=useState([
         {
             "id": 1,
             "company": "Photosnap",
-            "logo": "./src/assets/images/photosnap.svg",
+            "logo": photosnap,
             "new": true,
             "featured": true,
             "position": "Senior Frontend Developer",
@@ -21,7 +24,7 @@ function Jobswrapper(){
           {
             "id": 2,
             "company": "Manage",
-            "logo": "./src/assets/images/manage.svg",
+            "logo": "../../../public/images/manage.svg",
             "new": true,
             "featured": true,
             "position": "Fullstack Developer",
@@ -36,7 +39,7 @@ function Jobswrapper(){
           {
             "id": 3,
             "company": "Account",
-            "logo": "./src/assets/images/account.svg",
+            "logo": account,
             "new": true,
             "featured": false,
             "position": "Junior Frontend Developer",
