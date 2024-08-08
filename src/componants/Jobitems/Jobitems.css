@@ -1,0 +1,113 @@
+#alljobs{
+    display: flex;
+    flex-direction: column;
+}
+.jobitems{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 5px 10px #afdddb2f;
+
+
+}
+#new{
+    background-color: rgb(102, 185, 179);
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#feature{
+    background-color: rgb(0, 8, 8);
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#position{
+    font-size: 25px;
+    margin:10px 10px 10px 0px;
+    font-weight: bold;
+}
+#companyname{
+    color: rgb(102, 185, 179);
+    font-size: 20px;
+    font-weight: bold;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80%;
+    justify-content: center;
+    
+}
+#jobfeature{
+    display: flex;
+    column-gap: 20px;
+}
+#time{
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    height: 20px;
+    color: gray;
+}
+#buttons{
+    display: flex;
+    width: 200px;
+}
+button{
+    height: 40px;
+    border: 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+    background-color: rgb(229, 244, 242);
+    color: rgb(102, 185, 179);
+}
+@media screen and (max-width:600px) {
+    .jobitems{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        row-gap: 17px;
+    }
+    #alljobs{
+        margin-top: 20px;
+    }
+    img{
+        width: 60px;
+        position: relative;
+        bottom: 30px;
+    }
+    #details{
+        position: relative;
+        bottom: 30px;
+        margin: 0;
+    }
+    #position{
+        font-size: 17px;
+    }
+    #companyname{
+        font-size: 15px;
+    }
+    #buttons{
+        width: 100%;
+        border-top: 1px solid gray;
+        margin-bottom: 0px;
+    }
+button{
+    margin-top: 20px;
+}
+}

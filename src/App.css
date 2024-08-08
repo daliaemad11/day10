@@ -1,0 +1,16 @@
+nav{
+  height: 10%;
+  width: 100%;
+  background-image: url(./assets/images/bg-header-desktop.svg);
+  background-color: rgb(94, 158, 153);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+  background-color: white;
+  height: auto;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
